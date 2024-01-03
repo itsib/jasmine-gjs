@@ -1,0 +1,28 @@
+{
+  "name": "jasmine-gjs",
+  "version": "2.6.6",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "jasmin": "bin/jasmine"
+  },
+  "files": [
+    "libexec/jasmine-gjs/jasmine-runner",
+    "share/jasmine-gjs/*",
+    "README.md"
+  ],
+  "scripts": {
+    "add": "git add .",
+    "bump": "node ./node_modules/.bin/bump --tag --push --all meson.build package.json",
+    "buld": "./build-npm.sh",
+    "deploy": "npm run add && npm run bump && npm run buld",
+    "prepublish": "cd ./jasmine-gjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sergey",
+  "license": "MIT",
+  "devDependencies": {
+    "version-bump-prompt": "^6.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/_build" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/meson-info" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/meson-logs" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/meson-private" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/jasmine-gjs" />
+      <excludeFolder url="file://$MODULE_DIR$/package" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/jasmine" level="application" />
+    <orderEntry type="library" name="@types/node" level="application" />
+  </component>
+</module>
