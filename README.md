@@ -10,34 +10,24 @@ development) framework for JavaScript.
 This module allows you to run Jasmine specs for your GJS code.
 The output will be displayed in your terminal.
 
-## Installation
+## Installation and usage
 
-From Git:
+You can run the test without installation, just enter the command in the project directory:
 
-```sh
-git clone https://github.com/ptomato/jasmine-gjs
-cd jasmine-gjs
-meson _build
-ninja -C _build
-sudo ninja -C _build install
+```shell
+npx jasmine-gjs
 ```
 
-From a tarball:
+Install and run, execute the commands:
 
-```sh
-tar xJf jasmine-gjs-2.1.3.tar.xz
-cd jasmine-gjs-2.1.3
-meson _build
-ninja -C _build
-sudo ninja -C _build install
+```shell
+npm install --save-dev jasmine-gjs
 ```
 
-## Usage
+and run
 
-To run your test suite, pass its directory to the `jasmine` command:
-
-```bash
-jasmine mytestsuitedir
+```shell
+jasmine
 ```
 
 To run an individual spec:
